@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandForSudanEBSAPI", "StandForSudanEBSAPI\StandForSudanEBSAPI.csproj", "{78C25BFE-4162-4558-8150-BA96C6708544}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78C25BFE-4162-4558-8150-BA96C6708544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C25BFE-4162-4558-8150-BA96C6708544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C25BFE-4162-4558-8150-BA96C6708544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C25BFE-4162-4558-8150-BA96C6708544}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23BA4AD6-C4FE-4537-AB8C-1FD1D00F33CA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,44 @@
+﻿@model StandForSudanEBSAPI.Models.StandForSudan
+@{
+    ViewData["Title"] = "ShowCounter";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <div class="card mb-3">
+        <div class="card-header border-bottom text-right text-light" style="background-color:#4800ff">
+            <h4 class="text-light">لوحة التبرعات</h4>
+        </div>
+    </div>
+    
+<div>
+    @if(TempData["Failure"] != null)
+    {
+    <h6>@TempData["Failure"]</h6>
+    }
+</div>
+
+<table class="table" style="margin: 25px auto;">
+    
+    <tr class="card">
+        <td class="text-xl-center">مجموع العمليات</td>
+    </tr>
+    <tr>
+        <td class="text-xl-center"><h4>@Model.No_OfTransaction</h4></td>
+    </tr>
+
+
+
+    <tr class="card">
+        <td class="text-xl-center" style="background-color:#b200ff">المبلغ الإجمالي</td>
+    </tr>
+
+    <tr>
+        <td class="text-xl-center"><h4 style="font-size:xx-large">@Model.TotalAmount.ToString("N")</h4></td>
+    </tr>
+</table>
+
+
+
+
+
